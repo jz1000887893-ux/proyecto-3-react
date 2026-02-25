@@ -30,7 +30,7 @@ function App() {
           <Route path="/useMemo" element={<UseMemo />} />
           <Route path="/useReducer" element={<UseReducer />} />
           <Route path="/useCallback" element={<Usecallback />} />
-          <Route path="/Inicio" element={<Inicio />} />
+          <Route path="/" index element={<Inicio />} />
 
         </Route>
       </Routes>
